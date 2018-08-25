@@ -1,0 +1,9 @@
+<div *ngIf="hero">
+  <h2>Selected Hero [<label>{{hero.name | uppercase}}</label>] Details</h2>
+  <div>
+    <span>id: </span>{{hero.id}}
+  </div>
+  <div>
+    <button (click)="goBack()">Back</button>
+  </div>
+</div>
